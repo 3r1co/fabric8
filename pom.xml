@@ -82,7 +82,7 @@
         <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
         <jansi.version>1.11</jansi.version>
         <jolokia.version>1.3.3</jolokia.version>
-        <jgroups.version>3.6.8.Final</jgroups.version>
+        <jgroups.version>3.6.9.Final</jgroups.version>
         <jsonschema2pojo.version>0.4.21</jsonschema2pojo.version>
         <snakeyaml.version>1.16</snakeyaml.version>
 	<!-- swagger 1.5.7 doesnt work with fabric8-cxf-plugin -->
@@ -177,8 +177,8 @@
             org.apache.activemq.*;version="[5.11,6)",
             org.apache.camel.*;version="[2.15,3)",
         </fuse.osgi.import.defaults>
-        <fuse.osgi.import.before.defaults />
-        <fuse.osgi.import.additional />
+        <fuse.osgi.import.before.defaults/>
+        <fuse.osgi.import.additional/>
         <fuse.osgi.import.pkg>
             io.fabric8.*;${fuse.osgi.import.fabric.version},
             ${fuse.osgi.import.before.defaults},
@@ -186,21 +186,21 @@
             ${fuse.osgi.import.additional},
             *
         </fuse.osgi.import.pkg>
-        <fuse.osgi.activator />
+        <fuse.osgi.activator/>
         <fuse.osgi.failok>false</fuse.osgi.failok>
-        <fuse.osgi.private.pkg />
+        <fuse.osgi.private.pkg/>
         <fuse.osgi.export>io.fabric8.*;version=${fuse.osgi.version};-noimport:=true</fuse.osgi.export>
         <fuse.osgi.split.pkg>-split-package:=first</fuse.osgi.split.pkg>
         <fuse.osgi.import>${fuse.osgi.import.pkg}</fuse.osgi.import>
-        <fuse.osgi.dynamic />
+        <fuse.osgi.dynamic/>
         <fuse.osgi.symbolic.name>${project.groupId}.${project.artifactId}</fuse.osgi.symbolic.name>
         <fuse.osgi.exclude.dependencies>false</fuse.osgi.exclude.dependencies>
         <fuse.osgi.resource>{maven-resources}</fuse.osgi.resource>
         <fuse.osgi.embed.dependency>!*</fuse.osgi.embed.dependency>
         <fuse.osgi.embed.transitive>false</fuse.osgi.embed.transitive>
-        <fuse.osgi.require.bundle />
-        <fuse.osgi.capabilities.provide />
-        <fuse.osgi.capabilities.require />
+        <fuse.osgi.require.bundle/>
+        <fuse.osgi.capabilities.provide/>
+        <fuse.osgi.capabilities.require/>
     </properties>
 
     <distributionManagement>
