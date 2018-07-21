@@ -75,7 +75,7 @@
         <!-- upstream vs redhat versions of dependencies goes here -->
         <activemq.version>5.12.1</activemq.version>
         <camel.version>2.16.2</camel.version>
-        <cxf.version>3.1.4</cxf.version>
+        <cxf.version>3.1.14</cxf.version>
         <cxf.plugin.version>3.1.5</cxf.plugin.version>
 
         <commons.collections.version>3.2.2</commons.collections.version>
@@ -121,7 +121,7 @@
         <mockwebserver.version>20130706</mockwebserver.version>
         <guava.version>19.0</guava.version>
         <httpclient.version>4.5.2</httpclient.version>
-        <jackson2.version>2.6.4</jackson2.version>
+        <jackson2.version>2.8.11.1</jackson2.version>
         <jar.plugin.version>2.6</jar.plugin.version>
         <javax.el-version>2.2.5</javax.el-version>
         <jetty-plugin-groupId>org.mortbay.jetty</jetty-plugin-groupId>
@@ -177,8 +177,8 @@
             org.apache.activemq.*;version="[5.11,6)",
             org.apache.camel.*;version="[2.15,3)",
         </fuse.osgi.import.defaults>
-        <fuse.osgi.import.before.defaults />
-        <fuse.osgi.import.additional />
+        <fuse.osgi.import.before.defaults/>
+        <fuse.osgi.import.additional/>
         <fuse.osgi.import.pkg>
             io.fabric8.*;${fuse.osgi.import.fabric.version},
             ${fuse.osgi.import.before.defaults},
@@ -186,21 +186,21 @@
             ${fuse.osgi.import.additional},
             *
         </fuse.osgi.import.pkg>
-        <fuse.osgi.activator />
+        <fuse.osgi.activator/>
         <fuse.osgi.failok>false</fuse.osgi.failok>
-        <fuse.osgi.private.pkg />
+        <fuse.osgi.private.pkg/>
         <fuse.osgi.export>io.fabric8.*;version=${fuse.osgi.version};-noimport:=true</fuse.osgi.export>
         <fuse.osgi.split.pkg>-split-package:=first</fuse.osgi.split.pkg>
         <fuse.osgi.import>${fuse.osgi.import.pkg}</fuse.osgi.import>
-        <fuse.osgi.dynamic />
+        <fuse.osgi.dynamic/>
         <fuse.osgi.symbolic.name>${project.groupId}.${project.artifactId}</fuse.osgi.symbolic.name>
         <fuse.osgi.exclude.dependencies>false</fuse.osgi.exclude.dependencies>
         <fuse.osgi.resource>{maven-resources}</fuse.osgi.resource>
         <fuse.osgi.embed.dependency>!*</fuse.osgi.embed.dependency>
         <fuse.osgi.embed.transitive>false</fuse.osgi.embed.transitive>
-        <fuse.osgi.require.bundle />
-        <fuse.osgi.capabilities.provide />
-        <fuse.osgi.capabilities.require />
+        <fuse.osgi.require.bundle/>
+        <fuse.osgi.capabilities.provide/>
+        <fuse.osgi.capabilities.require/>
     </properties>
 
     <distributionManagement>
