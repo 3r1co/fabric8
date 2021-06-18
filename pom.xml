@@ -81,7 +81,7 @@
         <commons.collections.version>3.2.2</commons.collections.version>
         <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
         <jansi.version>1.11</jansi.version>
-        <jolokia.version>1.3.3</jolokia.version>
+        <jolokia.version>1.4.0</jolokia.version>
         <jgroups.version>3.6.8.Final</jgroups.version>
         <jsonschema2pojo.version>0.4.21</jsonschema2pojo.version>
         <snakeyaml.version>1.16</snakeyaml.version>
@@ -121,7 +121,7 @@
         <mockwebserver.version>20130706</mockwebserver.version>
         <guava.version>19.0</guava.version>
         <httpclient.version>4.5.2</httpclient.version>
-        <jackson2.version>2.6.4</jackson2.version>
+        <jackson2.version>2.8.6</jackson2.version>
         <jar.plugin.version>2.6</jar.plugin.version>
         <javax.el-version>2.2.5</javax.el-version>
         <jetty-plugin-groupId>org.mortbay.jetty</jetty-plugin-groupId>
