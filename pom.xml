@@ -154,7 +154,7 @@
         <servlet-api.version>2.5</servlet-api.version>
         <servlet30-api.version>3.0.1</servlet30-api.version>
         <shrinkwrap-resolver.version>2.2.2</shrinkwrap-resolver.version>
-        <slf4j.version>1.7.12</slf4j.version>
+        <slf4j.version>1.7.34</slf4j.version>
         <spring.version>4.2.4.RELEASE</spring.version>
         <spring.boot.version>1.2.7.RELEASE</spring.boot.version>
         <sundrio.version>0.1.25</sundrio.version>
